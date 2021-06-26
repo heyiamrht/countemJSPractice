@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Site Title -->
+    <title>Count 'em | Subway Passenger Counting</title>
+
+    <!-- Site Icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Typeface -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="center">
+    <main class="counter center-c">
+
+        <h1 class="counter__t-count-main" id="counter__t-count-main">?</h1>
+        <p class="counter__t-count-text">people have entered the subway today</p>
+        <p class="counter__a-count-text" id="counter__a-count-text">
+            An additional <span class="counter__a-count-main" id="counter__a-count-main">?</span> people entered the subway
+        </p>
+
+        <section class="counter__buttons">
+            <button class="counter__btn-add btn" id="counter__btn-add" onclick="add()">Add</button>
+            <button class="counter__btn-save btn btn-s" id="counter__btn-save" onclick="save()">Save</button>
+        </section>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="index.js"></script>
+</body>
+</html>
